@@ -133,14 +133,14 @@ p {
 
 @media screen and (max-width: 450px) {
   .card-container {
-    width: 250px;
+    width: 280px;
     padding: 0.7rem 0.7rem;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .card-container {
-    width: 220px;
+    width: 250px;
   }
   .image-container {
     width: 90px;
@@ -181,6 +181,12 @@ p {
 @media screen and (max-width: 350px) {
   .card-container {
     border-width: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card-container {
+    width: 235px;
   }
 }
 
