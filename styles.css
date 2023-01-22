@@ -140,12 +140,12 @@ p {
 
 @media screen and (max-width: 420px) {
   .card-container {
-    width: 250px;
+    width: 270px;
   }
   .image-container {
     width: 90px;
     height: 90px;
-    margin: 0 auto 0.8rem;
+    margin: 0 auto 1rem;
   }
   .image-container img {
     width: 90px;
@@ -159,13 +159,12 @@ p {
   }
   p {
     line-height: 1.25rem;
-    font-size: 0.85rem;
-    margin: 0;
+    font-size: 0.9rem;
   }
   .btn {
     padding: 0.6rem 2.2rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
   }
   .btn a {
     font-size: 1rem;
@@ -178,9 +177,21 @@ p {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
   .card-container {
     border-width: 1.2rem;
+    width: 250px;
+  }
+  .image-container {
+    margin: 0 auto 0.8rem;
+  }
+  p {
+    margin: 0;
+  }
+  .btn {
+    padding: 0.6rem 2.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
   }
 }
 
