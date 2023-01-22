@@ -134,7 +134,7 @@ p {
 @media screen and (max-width: 450px) {
   .card-container {
     width: 250px;
-    padding: 0.8rem 0.8rem;
+    padding: 0.7rem 0.7rem;
   }
 }
 
@@ -145,7 +145,7 @@ p {
   .image-container {
     width: 90px;
     height: 90px;
-    margin: 0 auto 1rem;
+    margin: 0 auto 0.8rem;
   }
   .image-container img {
     width: 90px;
@@ -160,11 +160,12 @@ p {
   p {
     line-height: 1.25rem;
     font-size: 0.85rem;
+    margin: 0;
   }
   .btn {
     padding: 0.6rem 2.2rem;
-    margin-top: 0.8rem;
-    margin-bottom: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .btn a {
     font-size: 1rem;
