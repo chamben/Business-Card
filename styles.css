@@ -39,7 +39,7 @@ body {
   box-shadow: 0px 0px 10px 3px #202e01;
   padding: 1.3rem 2rem;
   border-radius: 2.5rem;
-  background-color: #03002e;
+  background-color: #010057;
   border: 2rem solid #000;
 }
 
@@ -136,6 +136,12 @@ p {
     width: 250px;
     padding: 0.8rem 0.8rem;
   }
+}
+
+@media screen and (max-width: 400px) {
+  .card-container {
+    width: 220px;
+  }
   .image-container {
     width: 90px;
     height: 90px;
@@ -168,12 +174,6 @@ p {
     font-size: 22px;
     width: 22px;
     height: 22px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .card-container {
-    width: 220px;
   }
 }
 
