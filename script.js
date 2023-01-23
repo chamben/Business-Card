@@ -53,3 +53,20 @@ particlesJS("particles-js", {
   },
   retina_detect: true,
 });
+
+//redirect user to gmail account depending on device type
+const button = document.querySelector(".btn");
+const link = document.querySelector(".gmail-link");
+button.addEventListener("click", function () {
+  if (
+    /Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/i.test(
+      navigator.userAgent
+    )
+  ) {
+    link.href = "mailto:spridigiagency@gmail.com";
+  } else {
+    console.log(navigator.userAgent);
+    link.href =
+      "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=spridigiagency@gmail.com";
+  }
+});
